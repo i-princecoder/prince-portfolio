@@ -314,9 +314,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   /* margin-left: 25px; */
 }
-.banner img {
-  animation: updown 3s linear infinite;
+
+#img-div {
+  margin: 50px;
 }
+
+.banner img {
+  border-radius: 50%;
+  
+}
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -379,6 +386,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: black;
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -392,6 +400,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+}
+ @media (max-width: 600px) {
+  .project p {
+    margin: 2px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+  }
 }
 .project .nav.nav-pills {
   width: 72%;
