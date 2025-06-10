@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";  
-import brancy from "../assets/img/brancy.jpg";
+import rps from "../assets/img/rock_paper_scissors.png";
+import brancy from "../assets/img/brancy.png";
 import comingsoon from "../assets/img/comingsoon.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -16,9 +17,10 @@ export const Projects = () => {
       link: "https://github.com/special-char/semi-colon-cosmetic?tab=readme-ov-file#readme",
     },
     { 
-      title: "Coming soon",
-      description: "",
-      imgUrl: comingsoon,
+      title: "Rock Paper Scissors",
+      description: "Game",
+      imgUrl: rps,
+      link: "https://rock-paper-scissors-game-re6u.vercel.app",
     },
     {
       title: "Coming soon",
