@@ -48,7 +48,7 @@ export const Banner = () => {
   }
   const downloadPDF = () => {
     const link = document.createElement('a');
-    link.href = '/Prince-resume.pdf';
+    link.href = '/Prince_Goswami_Resume.pdf';
     link.download = 'Prince-resume'; // Optional: Rename the downloaded file
     link.click();
   };
